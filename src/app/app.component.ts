@@ -2,9 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `<router-outlet></router-outlet><app-loading></app-loading>`,
 })
-export class AppComponent {
-  title = 'todo-bluesoft';
-}
+export class AppComponent {}

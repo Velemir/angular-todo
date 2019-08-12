@@ -29,7 +29,11 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/uikit/dist/js/uikit.min.js",
+              "node_modules/uikit/dist/js/uikit-icons.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -85,7 +89,11 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/uikit/dist/js/uikit.min.js",
+              "node_modules/uikit/dist/js/uikit-icons.min.js"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"

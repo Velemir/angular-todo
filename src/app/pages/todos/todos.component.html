@@ -1,0 +1,16 @@
+<h1>My Todo List</h1>
+
+<div id="todo-table">
+
+  <form [formGroup]="form">
+    <input [formControlName]="'title'" type="text" name="title" placeholder="Add new item..." required>
+    <button type="button" (click)="addTodo()">Add</button>
+  </form>
+
+  <ul>
+    <li *ngFor="let todo of todoList" (click)="removeTodo(todo.id)">
+      {{todo.title}}
+    </li>
+  </ul>
+
+</div>
